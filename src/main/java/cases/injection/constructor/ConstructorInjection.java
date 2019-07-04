@@ -10,4 +10,7 @@ public class ConstructorInjection {
         this.generic = thing;
     }
 
+    public void doSomething (int toAdd){
+        this.generic.setValue(this.generic.getValue() + toAdd);
+    }
 }
