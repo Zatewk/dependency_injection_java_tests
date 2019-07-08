@@ -1,12 +1,12 @@
 package cases.injection.constructor;
 
-import cases.GenericThing;
+import cases.Thing;
 
 public class ConstructorInjection {
 
-    private GenericThing generic;
+    private Thing generic;
 
-    public ConstructorInjection (GenericThing thing){
+    public ConstructorInjection (Thing thing){
         this.generic = thing;
     }
 

@@ -1,12 +1,12 @@
 package cases.injection.setter;
 
-import cases.GenericThing;
+import cases.Thing;
 
 public class SetterInjection {
 
-    private GenericThing generic;
+    private Thing generic;
 
-    public void setGeneric(GenericThing generic) {
+    public void setGeneric(Thing generic) {
         this.generic = generic;
     }
 

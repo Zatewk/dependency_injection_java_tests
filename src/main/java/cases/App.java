@@ -14,10 +14,12 @@ public class App
         GenericThing thing = new GenericThing(10);
         System.out.println( "The value of this thing is: "+thing.getValue() );
 
+        // Constructor Injection case
         ConstructorInjection ci = new ConstructorInjection(thing);
         ci.doSomething(5);
         System.out.println( "The value of this thing is: "+thing.getValue() );
 
+        // Setter Injection case
         SetterInjection si = new SetterInjection();
         si.setGeneric(thing);
         si.doSomething(10);

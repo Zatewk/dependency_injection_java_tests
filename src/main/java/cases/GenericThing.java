@@ -1,6 +1,6 @@
 package cases;
 
-public class GenericThing {
+public class GenericThing implements Thing {
 
     private int value;
 
